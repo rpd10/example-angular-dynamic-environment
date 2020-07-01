@@ -1,0 +1,10 @@
+{
+  "customers": {
+    "enabled": true,
+    "url": "http://fake-customers"
+  },
+  "widgets": {
+    "enabled": true,
+    "url": "http://fake-widgets"
+  }
+}

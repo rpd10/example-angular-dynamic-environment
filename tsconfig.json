@@ -15,7 +15,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@example-angular-dynamic-environment/config": [
+        "libs/config/src/index.ts"
+      ],
+      "@example-angular-dynamic-environment/home": ["libs/home/src/index.ts"],
+      "@example-angular-dynamic-environment/customers": [
+        "libs/customers/src/index.ts"
+      ],
+      "@example-angular-dynamic-environment/widgets": [
+        "libs/widgets/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

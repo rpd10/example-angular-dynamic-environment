@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "exampleAngularDynamicEnvironment",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "example-angular-dynamic-environment",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
