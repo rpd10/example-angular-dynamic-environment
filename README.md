@@ -1,7 +1,7 @@
 # ExampleAngularDynamicEnvironment
 
 This is an example repository that outlines how to dynamically load configuration in an Angular application.
-For full context, see the article here: TODO
+For full context, see the article here: https://rpd10.github.io/diehl-with-software/blog/angular-dynamic-environment-configuration
 
 # Running
 
