@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { WIDGETS_CONFIG } from '@example-angular-dynamic-environment/config';
 import { WidgetsComponent } from './widgets.component';
 
@@ -6,7 +6,7 @@ describe('WidgetsComponent', () => {
   let component: WidgetsComponent;
   let fixture: ComponentFixture<WidgetsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [WidgetsComponent],
       providers: [
